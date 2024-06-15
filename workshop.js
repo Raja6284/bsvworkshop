@@ -8,7 +8,7 @@ const walletModule = neucron.wallet;
 // const signUpResponse = await authModule.signUp({ email: "rajaraja360parth@gmail.com", password: "7903301305But@" });
 // console.log(signUpResponse);
 
-const loginResponse = await authModule.login({ email: "rajaraja360parth@dev.neucron.io", password: "7903301305But@" });
+const loginResponse = await authModule.login({ email: "rajaraja360parth@gmail.com", password: "7903301305But@" });
 console.log(loginResponse);
 
 // const walletKeys = await walletModule.getWalletKeys({});
@@ -25,12 +25,13 @@ console.log(DefaultWalletBalance);
 // const options = {
 //     outputs: [
 //       {
-//         address: 'rajaraja360parth@dev.neucron.io',
+//         address: 'nehagc845@dev.neucron.io',
 //         note: 'gurudakshina',
-//         amount: 10
+//         amount:2
 //       }
 //     ]
 //   };
+
 
 // const payResponse = await neucron.pay.txSpend(options)
 // console.log(payResponse)
